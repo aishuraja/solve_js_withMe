@@ -1,6 +1,9 @@
 <input id ="num1" value = "">
 <input id = "num2" value = "">
-<button onclick="resultt()">Add</button>
+<button onclick="resultt()">+</button>
+<button onclick="result1()">*</button>
+<button onclick="result2()">/</button>
+<button onclick="result3()">-</button>
 
 <!-- var total = input 1 (num1 ) + input 2 (num2 values ) -->
 <p id ="result">Display Result</p>
@@ -14,15 +17,31 @@
     value2 = Number(box2.value)
     
     console.log(value1, value2 )
-    var total = value1+value2
-
+    
     function resultt(){
         value1= Number(box1.value)
         value2 = Number(box2.value)
         var total = value1+value2
         result.textContent = total
     }
-    
+    function result1(){
+        value1= Number(box1.value)
+        value2 = Number(box2.value)
+        var total_mul = value1*value2
+        result.textContent = total_mul
+    }
+    function result2(){
+        value1= Number(box1.value)
+        value2 = Number(box2.value)
+        var total_div = value1 / value2
+        result.textContent = total_div
+    }
+    function result3(){
+        value1= Number(box1.value)
+        value2 = Number(box2.value)
+        var total_sub = value1-value2
+        result.textContent = total_sub
+    }
     
     
 

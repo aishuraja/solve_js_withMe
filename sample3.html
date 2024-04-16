@@ -1,0 +1,52 @@
+<h1>Guess the Random Numbers</h1>
+<input id = "guess" value="">
+<button onclick="checks()">Check</button>
+<p id ="win">Are you winner or losser?</p>
+<p id ="score"></p>
+
+
+<script>
+    var a = Math.random()
+    var b = Math.floor((a*10)+1)
+    
+   
+    console.log("the randon no is:",b)
+    var Guess = document.getElementById("guess")
+    var scr = document.getElementById("score")
+    var winner = document.getElementById("win")
+   
+    var Score = 10
+   
+    
+    function checks(){
+        var inputt = Number(Guess.value)
+
+        if (inputt == b)
+        {
+            var c = "Congratulations! You WON"
+            var S = "Your Score:" + Score
+            winner.textContent = c
+            scr.textContent = S
+            alert("WOW, You WON!")
+               
+        }
+        else
+        {
+            Score = Score -1
+            var d = "You are wrong"
+            
+            var Sc = "Your Score:"+Score
+            winner.textContent = d
+            scr.textContent = Sc
+
+        }
+        
+
+    }
+    
+   
+
+
+
+
+</script>
