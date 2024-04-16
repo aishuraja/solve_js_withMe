@@ -3,3 +3,4 @@ Files:
 sample1 - adding two numbers
 sample2 - Finding the area 
 Basic calculator  - building the basic calcultor with addition functionality. 
+sample3 - Guess the Random Number 
