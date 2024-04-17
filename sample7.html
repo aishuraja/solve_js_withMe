@@ -1,0 +1,41 @@
+<h1 id ="heading">Name</h1>
+<button onclick="diff(event)">John</button>
+<button onclick="diff(event)" >Danny</button>
+<button onclick="diff(event)">steve</button>
+<script>
+    var Heading = document.getElementById("heading")
+
+    function diff(event){
+
+        Heading.textContent = event.target.textContent
+    }
+
+</script>
+
+
+<!-- METHOD 2 - NOT SUGGESTABLE  -->
+
+<!-- <h1 id ="heading">Name</h1>
+<button id="john" onclick="names()">John</button>
+<button id ="danny" onclick="name1()" >Danny</button>
+<button id="steve" onclick="name2()">steve</button>
+<script>
+    var Heading = document.getElementById("heading")
+    var J = document.getElementById("john")
+    var D = document.getElementById("danny")
+    var S = document.getElementById("steve")
+
+    function names(){
+
+        // J.textContent = "John"
+        Heading.textContent = J.textContent
+    }
+    function name1(){
+        Heading.textContent = D.textContent
+    }
+    function name2(){
+        Heading.textContent = S.textContent
+    }
+</script>
+
+ -->

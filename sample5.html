@@ -1,0 +1,13 @@
+<button onclick="clicks()">Add Hello</button>
+<div id="container"></div>
+<script>
+    var Container = document.getElementById("container")
+   
+    function clicks(){
+        // create new elements ( h1 tagss to display)
+        var newtag = document.createElement("h1")
+        newtag.textContent = "Hello"
+       Container.append(newtag)
+
+    }
+</script>

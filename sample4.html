@@ -1,0 +1,10 @@
+<input id ="inputBox" onkeyup="retrieve()" >
+<h1 id="result"></h1>
+<script>
+    var inputbox = document.getElementById("inputBox")
+    var Result = document.getElementById("result")
+    function retrieve(){
+        s= inputbox.value
+        Result.textContent = s
+    }
+</script>
