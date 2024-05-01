@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header{
+    background-color: brown;
+}
+
+.container{
+    margin-top: 3%;
+    background-color: black;
+    color: white;
+    border-radius: 5%;
+    padding: 15px;
+    width: 25%;
+    margin-left: 3%;
+    
+    
+    
+}
+
+.book-container h3{
+    color: brown;
+
+}
+
+.book-container h5{
+    margin-top: 5%;
+}
+.book-container button{
+    margin-top: 5%;
+    background-color: brown;
+    border-radius: 5%;
+    padding: 2px;
+}
+.addbooks button{
+    margin-top: 29%;
+    border-radius: 50%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    background-color: brown;
+    margin-left: 95%;
+    
+}
+.carddetails{
+    
+  
+    background-color: brown;
+    color: white;
+    border-radius: 10%;
+    padding: 100px;
+    width: 25%;
+    margin-left: 30%;
+    
+ 
+
+ 
+
+}
+.carddetails input{
+    margin-top: 5%;
+
+}
+.carddetails textarea{
+    margin-top: 5%;
+}
+.carddetails button{
+    margin-top: 5%;
+   
+}

@@ -1,0 +1,36 @@
+<input id="one">
+<button onclick="addelements()">Add</button>
+<ul id = "list-container">
+    <li>
+        Hello
+        
+        <button onclick="deleteelements(event)">Completed</button>
+    </li>
+</ul>
+
+<script>
+
+    // selecting ul 
+    var ul = document.getElementById("list-container")
+
+    
+    var One = document.getElementById("one")
+    
+    function addelements(){
+        // create another li (element)to add input -- evebry time button is clicked the new list should be created 
+        var li = document.createElement("li")
+        li.innerHTML = One.value + "<button onclick='deleteelements(event)'>Completed</button>"
+        ul.append(li)
+        
+    }
+
+    // to delete items 
+    function deleteelements(event){
+        event.target.parentElement.remove()
+    }
+
+
+
+
+
+</script>
