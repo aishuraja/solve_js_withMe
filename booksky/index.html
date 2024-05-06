@@ -11,23 +11,37 @@
     <div class="header">
         <h1>Booksky</h1>
     </div>
-    <div class="container">
-        <div class="book-container">
-            <h3>The Silent Patient</h3>
-        <h5>Alex</h5>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi necessitatibus exercitationem ab suscipit officia ad, neque quaerat esse quisquam ipsa at voluptatum a, fugiat, impedit mollitia repellat non assumenda? Obcaecati!</p>
-        <button>Delete</button>
-        </div>
-        
-    </div>
-    <div class="carddetails">
-        <input placeholder="enter the book name">
-        <input placeholder="enter the author">
-        <textarea placeholder=" short description"></textarea>
-        <button>Add</button> <button>Delete</button>
+        <div class="container">
+            <div class="book-container">
+                <h3>The Silent Patient</h3>
+                <h5>Alex</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi necessitatibus exercitationem ab suscipit officia ad, neque quaerat esse quisquam ipsa at voluptatum a, fugiat, impedit mollitia repellat non assumenda? Obcaecati!</p>
+                <button onclick="deletebutton(event)">Delete</button>
+                
+            </div>
+            
+            
+        </div>   
+    <div class="popup-overlay"></div>
+    <div >
+        <form class="poopup-box" id="pop" name="pop-box">
+            <h1>Add Books</h1>
+            <label for="booktitle">Book Title</label>
+            <input type="text" id="booktitle" placeholder="enter the title"><br>
+            <label for="bookauth">Book Author</label>
+            <input type="text" id="bookauth" placeholder="enter the Author"><br>
+            <label for="description">Short description</label>
+            <textarea placeholder="short description" id="description"></textarea><br>
+            <button id="adddetails">ADD</button>
+            <button id="cancelbutton">CANCEL</button>
+            
+        </form>
     </div>
 
-    <div class="addbooks">
+   
+    
+
+    <div class="addbooks" id="addbutton">
         <button>+</button>
     </div>
 

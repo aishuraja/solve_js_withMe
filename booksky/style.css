@@ -9,20 +9,24 @@
 }
 
 .container{
-    margin-top: 3%;
-    background-color: black;
-    color: white;
-    border-radius: 5%;
+   padding: 10px;
+    
+    
+}
+.book-container{
     padding: 15px;
     width: 25%;
-    margin-left: 3%;
-    
-    
-    
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .book-container h3{
     color: brown;
+    
 
 }
 
@@ -36,7 +40,7 @@
     padding: 2px;
 }
 .addbooks button{
-    margin-top: 29%;
+    margin-top: 10%;
     border-radius: 50%;
     border: none;
     padding: 20px;
@@ -44,8 +48,9 @@
     background-color: brown;
     margin-left: 95%;
     
+    
 }
-.carddetails{
+/* .carddetails{
     
   
     background-color: brown;
@@ -59,8 +64,8 @@
 
  
 
-}
-.carddetails input{
+} */
+/* .carddetails input{
     margin-top: 5%;
 
 }
@@ -69,5 +74,39 @@
 }
 .carddetails button{
     margin-top: 5%;
-   
+    */
+
+
+.popup-overlay{
+    background-color: black;
+    opacity: 0.8;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 2;
+    display: none;
+}
+.poopup-box{
+    background-color: brown;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    margin-top: 5%;
+    margin-left: 10%;
+    z-index: 3;
+    display: none;
+}
+.poopup-box input{
+    margin-top: 2%;
+}
+.poopup-box textarea{
+    margin-top: 2%;
+}
+.poopup-box button{
+    margin-top: 2%;
 }
