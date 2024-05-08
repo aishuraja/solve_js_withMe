@@ -8,7 +8,7 @@ sample 4 - Retrieve the values
 sample 5 - Add Hello
 sample 6- Change the button color
 sample 7 - Play with buttons 
-sample 8 - deleteitem
+sample 8 - deleteitems
 studentform - Tried to create the basic student form still need to work on that
 To do list - created the basic fuctionalities necessary for the to do list application
 I have created a project called "Booksky" which bascially allows you to add the list of books you read. 
