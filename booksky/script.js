@@ -46,7 +46,7 @@ adddetails.addEventListener("click",function(event){
     
 })
 
-// delete button
+// delete button - the particular target event will be deleted. 
 
 function deletebutton(event){
     event.target.parentElement.remove()
