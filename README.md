@@ -6,7 +6,7 @@ Basic calculator  - building the basic calcultor with addition functionality.
 sample3 - Guess the Random Number 
 sample 4 - Retrieve the values
 sample 5 - Add Hello
-sample 6- Change the button color
+sample 6- Change the button color,
 sample 7 - Play with buttons 
 sample 8 - deleteitems
 studentform - Tried to create the basic student form still need to work on that
